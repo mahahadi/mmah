@@ -1,0 +1,13 @@
+ a= ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+
+
+ 
+ for j in 0..a.length
+ 
+puts a[j]
+end
+(0...(a.length)).step(1) do |i|
+ puts a[i].reverse
+
+
+end

@@ -1,0 +1,33 @@
+
+ b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+  for i in 0..b.length
+  c=[]
+  if b[i]%2!=0
+c.push b[i]*2
+
+  puts "c=", c
+
+
+end
+m=[]
+if  b[i]%2==0
+m.push b[i]-1
+ puts "m=", m
+end
+l=[]
+ 
+if  b[i]%5==0
+ l.push b[i]*b[i]
+ puts "l=", l
+end
+
+ end
+ 
+ s=[]
+ for  i in 0..b.length
+    if b[i]%10==0
+  s.push i+10    
+         
+         puts "s=",s
+       end
+     end

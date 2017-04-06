@@ -1,0 +1,16 @@
+b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+ 
+  
+c=[]
+      
+for i in 0..b.length-1
+c.push((10*b[i])-5)
+end
+puts "\rc=#{c}"
+ 
+ 
+sum=[]
+for i in 0..b.length-1
+   sum.push(c[i]+b[i])
+end
+print  "\rsum=#{sum}"

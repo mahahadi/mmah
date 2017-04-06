@@ -1,0 +1,18 @@
+/*7-Write a JavaScript program that will create another array, which will be 2/3
+* the corresponding element in the new array + 1/2. Then, for each element in b, print element * every element in the new array 
+    (cross product). */
+  var  b = [5, 10, 23, 10, 7, 9, 39, 16, 1, 12, 36, 20, 50];
+  var c=[];
+  
+  for(var i=0;i<b.length;i++)
+  c.push((2/3)*b[i]+(1/2));
+  for(var i=0;i<c.length;i++)
+   console.log(" c[i]= "+c[i]);
+  for (i=0;i<b.length;i++)
+  {
+        var s = "";
+       for( var j=0;j<c.length;j++)
+        s += + (b[i]*c[j]).toFixed(1) +" ";
+       
+    console.log("s = "+s);
+  }

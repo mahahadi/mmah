@@ -1,0 +1,10 @@
+
+var a= ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"];
+function reverseString(str) {
+    return str.split("").reverse().join("");
+}
+for(var i=1;i<11;i=i+2)
+
+a[i]=reverseString(a[i]);
+for(var i=0;i<11;i++)
+console.log(a[i]);

@@ -1,0 +1,5 @@
+a = ["john", "mike", "susan", "matt", "joe", "larry", "ken", "samantha", "jenny", "Sara", "henry"]
+index = a.length
+ 
+
+a.length.times { index -= 1; puts a[index-=2].upcase}

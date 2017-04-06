@@ -1,0 +1,3 @@
+5. Write a Ruby program that will read the innerHTML of a <p> tag, and print it to the screen in reverse.
+sol: we cannot write html or css  or JavaScript command to the server
+but ruby can weite in servr only that means can not use p tag or any tag in ruby
